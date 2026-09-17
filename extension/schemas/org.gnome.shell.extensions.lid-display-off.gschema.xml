@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.lid-display-off"
+          path="/org/gnome/shell/extensions/lid-display-off/">
+
+    <key name="enabled" type="b">
+      <default>false</default>
+      <summary>Enable Lid Display Off mode</summary>
+      <description>When enabled, closing the lid turns off the display and locks the screen but keeps the laptop running.</description>
+    </key>
+
+    <key name="original-ac-action" type="s">
+      <default>''</default>
+      <summary>Saved original AC lid-close action</summary>
+      <description>Stores the original lid-close-ac-action so it can be restored when disabled.</description>
+    </key>
+
+    <key name="original-battery-action" type="s">
+      <default>''</default>
+      <summary>Saved original battery lid-close action</summary>
+      <description>Stores the original lid-close-battery-action so it can be restored when disabled.</description>
+    </key>
+
+  </schema>
+</schemalist>

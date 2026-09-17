@@ -1,0 +1,13 @@
+[Unit]
+Description=Lid Display Off Daemon
+PartOf=graphical-session.target
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 -u /home/amit/.local/bin/lid-display-daemon.py
+Restart=always
+RestartSec=2s
+
+[Install]
+WantedBy=graphical-session.target

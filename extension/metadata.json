@@ -1,0 +1,10 @@
+{
+    "uuid": "lid-display-off@amit",
+    "name": "Lid Display Off",
+    "description": "Keep laptop running with display off when lid is closed. Adds a Quick Settings toggle.",
+    "shell-version": ["46", "47", "48", "49", "50"],
+    "session-modes": ["user", "unlock-dialog"],
+    "settings-schema": "org.gnome.shell.extensions.lid-display-off",
+    "url": "",
+    "version": 1
+}
